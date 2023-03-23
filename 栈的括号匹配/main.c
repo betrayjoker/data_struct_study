@@ -3,11 +3,12 @@
 //初始化一个栈
 bool InitStack(SqSTACK* S) {
 	//头结点指向空
-	*S = NULL;//无头结点的栈在使用时更为便利，所以大部分的栈
+	*S = NULL;//无头结点的栈在使用时更为便利，所以大部分的栈都使用无头结点的链表
 	return true;
 }
 
-bool PutStack(SqSTACK* S, char x) {//  1 2 3 4 5 6  1 2  1
+//入栈操作
+bool PutStack(SqSTACK* S, char x) {// 传入的是S的地址以及想要传入的元素
 	Sqstack* temp = (Sqstack*)malloc(sizeof(Sqstack));
 	if (temp == NULL)
 		return false;
