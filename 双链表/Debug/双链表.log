@@ -1,0 +1,9 @@
+﻿  main.c
+D:\cccc\数据结构\双链表\main.c(4,24): warning C4013: “malloc”未定义；假设外部返回 int
+D:\cccc\数据结构\双链表\main.c(6,7): warning C4013: “free”未定义；假设外部返回 int
+D:\cccc\数据结构\双链表\main.c(28,18): warning C4133: “=”: 从“DNode *”到“DNode *”的类型不兼容
+D:\cccc\数据结构\双链表\main.c(30,14): warning C4133: “=”: 从“DNode *”到“DNode *”的类型不兼容
+D:\cccc\数据结构\双链表\main.c(31,13): warning C4133: “=”: 从“DNode *”到“DNode *”的类型不兼容
+D:\cccc\数据结构\双链表\main.c(27,1): warning C4133: “初始化”: 从“DNode *”到“DNode *”的类型不兼容
+D:\cccc\数据结构\双链表\main.c(35): warning C4715: “InsertNextDNode”: 不是所有的控件路径都返回值
+  双链表.vcxproj -> D:\cccc\数据结构\Debug\双链表.exe

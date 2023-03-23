@@ -1,0 +1,5 @@
+﻿  main.c
+D:\cccc\数据结构\栈的括号匹配\main.c(14,17): warning C4133: “=”: 从“SqSTACK”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的括号匹配\main.c(29,17): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
+D:\cccc\数据结构\栈的括号匹配\main.c(59,25): warning C4013: “strlen”未定义；假设外部返回 int
+  栈的括号匹配.vcxproj -> D:\cccc\数据结构\Debug\栈的括号匹配.exe

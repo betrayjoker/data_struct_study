@@ -1,0 +1,7 @@
+﻿  main.c
+D:\cccc\数据结构\栈的链式存储\main.c(11,14): warning C4133: “=”: 从“Linknode *”到“Listack”的类型不兼容
+D:\cccc\数据结构\栈的链式存储\main.c(28,19): warning C4133: “=”: 从“Listack”到“Linknode *”的类型不兼容
+D:\cccc\数据结构\栈的链式存储\main.c(38,14): warning C4133: “=”: 从“Linknode *”到“Listack”的类型不兼容
+D:\cccc\数据结构\栈的链式存储\main.c(46,19): warning C4133: “=”: 从“Linknode *”到“Listack”的类型不兼容
+D:\cccc\数据结构\栈的链式存储\main.c(51,20): warning C4133: “=”: 从“Linknode *”到“Listack”的类型不兼容
+  栈的链式存储.vcxproj -> D:\cccc\数据结构\Debug\栈的链式存储.exe

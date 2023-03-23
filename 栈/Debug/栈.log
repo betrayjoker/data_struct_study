@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(栈.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.c
+D:\cccc\数据结构\栈\main.c(4,25): warning C4028: 形参 1 与声明不同
+D:\cccc\数据结构\栈\main.c(6): warning C4716: “InitStack”: 必须返回一个值
+  栈.vcxproj -> D:\cccc\数据结构\Debug\栈的顺序存储.exe

@@ -1,0 +1,4 @@
+﻿  main.c
+D:\cccc\数据结构\队列的链式存储\main.c(51,20): warning C4133: “=”: 从“LinkNode *”到“LinkNode *”的类型不兼容
+D:\cccc\数据结构\队列的链式存储\main.c(77,20): warning C4133: “=”: 从“LinkNode *”到“LinkNode *”的类型不兼容
+  队列的链式存储.vcxproj -> D:\cccc\数据结构\Debug\队列的链式存储.exe

@@ -1,0 +1,17 @@
+﻿  main.c
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(19,25): error C2085: “InitList”: 不在形参表中
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(19,25): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(20,3): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(20,5): error C2223: “->data”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(21,7): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(21,9): error C2223: “->data”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(25,3): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(25,5): error C2223: “->length”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(26,3): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(26,5): error C2223: “->MaxSize”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(27,23): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(27,25): error C2223: “->MaxSize”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(28,4): error C2065: “L”: 未声明的标识符
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(28,6): error C2223: “->data”的左侧必须指向结构/联合
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(37,11): warning C4098: “IncreaseSize”:“void”函数返回值
+D:\cccc\数据结构\第二章 线性表 动态分配\main.c(74,10): warning C4013: “InitList”未定义；假设外部返回 int

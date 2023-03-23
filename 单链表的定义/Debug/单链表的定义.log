@@ -1,0 +1,7 @@
+﻿  main.c
+D:\cccc\数据结构\单链表的定义\main.c(28,21): warning C4047: “==”:“int”与“void *”的间接级别不同
+D:\cccc\数据结构\单链表的定义\main.c(115,13): warning C4047: “=”:“int *”与“int”的间接级别不同
+D:\cccc\数据结构\单链表的定义\main.c(187,15): warning C4098: “List_HeadInsert”:“void”函数返回值
+D:\cccc\数据结构\单链表的定义\main.c(199,16): warning C4098: “List_HeadInsert”:“void”函数返回值
+D:\cccc\数据结构\单链表的定义\main.c(206,13): warning C4098: “List_HeadInsert”:“void”函数返回值
+  单链表的定义.vcxproj -> D:\cccc\数据结构\Debug\单链表的定义.exe
