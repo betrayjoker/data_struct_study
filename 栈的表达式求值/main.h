@@ -25,3 +25,15 @@ bool ToRPN(char *PN,SqSTACK* result);
 int Len(char *PN);
 
 char* GetElem();
+
+bool bracketcheck(char *str, int length);
+
+int IfOp(char x);
+
+bool CompareOp(char a, char b);
+
+bool OutputStack(SqSTACK S);
+
+bool RoutPutStack(SqSTACK S);
+
+int LengthStack(SqSTACK S);

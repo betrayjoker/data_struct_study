@@ -1,5 +1,19 @@
 ﻿  main.c
 D:\cccc\数据结构\栈的表达式求值\main.c(17,14): warning C4133: “=”: 从“SqSTACK”到“Sqstack *”的类型不兼容
 D:\cccc\数据结构\栈的表达式求值\main.c(26,19): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
-D:\cccc\数据结构\栈的表达式求值\main.c(70): warning C4716: “ToRPN”: 必须返回一个值
+D:\cccc\数据结构\栈的表达式求值\main.c(113,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(121,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(129,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(137,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(145,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(153,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(161,15): warning C4047: “==”:“int”与“char [2]”的间接级别不同
+D:\cccc\数据结构\栈的表达式求值\main.c(170,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(180,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(193,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(221,23): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(223,22): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(228,24): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(249,20): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(163): warning C4715: “CompareOp”: 不是所有的控件路径都返回值
   栈的表达式求值.vcxproj -> D:\cccc\数据结构\Debug\栈的表达式求值.exe

@@ -39,7 +39,7 @@ bool bracketcheck(char str[], int length) {//判断括号是否配对操作
 		if (str[i] == '(' || str[i] == '{' || str[i] == '[') {//左括号存入栈
 			PutStack(&s, str[i]);
 		}
-		else {
+		else if (str[i] == ')' || str[i] == '}' || str[i] == ']') {
 			if (Empty(s))//如果是右括号但是栈空，则显然不配对
 				return false;
 			char topElem;
