@@ -1,5 +1,5 @@
 //考试更喜欢应用面更广的后缀表达式。中缀：a+b-c*d 后缀：ab+cd*- 前缀：-+ab*cd
-//((15/(7-(1+1)))*3 -(2+(1+1))   后缀：15 7 1 1+-/ 3 * 2 1 1 + + -     A B C D - * E F/ - +
+//(15/(7-(1+1)))*3 -(2+(1+1))   后缀：15 7 1 1+-/ 3 * 2 1 1 + + -     A B C D - * E F/ - +
 //下求中缀表达式转后缀表达式，并将后缀表达式求值
 #include"main.h"
 
@@ -192,7 +192,7 @@ bool RoutPutStack(SqSTACK S) {
 		i++;
 		S = S->next;
 	}
-	for (i = i-1; i >=0; i--) {
+	for (i = i - 1; i >= 0; i--) {
 		printf("%c ", temp[i]);
 	}
 	printf("\n");
@@ -215,25 +215,32 @@ bool ToRPN(char* PN, SqSTACK* result) {//((15/(7-(1+1)))*3 -(2+(1+1)))由PN指针承
 			if (Empty(temp)) {
 				PutStack(&temp, PN[i]);
 				continue;
-			}	
+			}
 			switch (PN[i]) {
 			case'(':PutStack(&temp, PN[i]);//左括号直接进栈
+				break;
 			case')'://右括号输出栈中元素至结果栈，直到遇到左括号为止，并删除左括号
+			{
 				while (temp->data != '(') {
-					PutStack(result, temp->data);
-					temp = temp->next;
-				}
+				PutStack(result, temp->data);
 				temp = temp->next;
+				}
+			temp = temp->next; 
+			break;
+			}
 			default:
+			{
 				if (temp->data != '(') {//// + + + + + 
 					while (CompareOp(temp->data, PN[i])) {
-						PutStack(result, PN[i]);
+						PutStack(result, temp->data);
 						temp = temp->next;
 						if (temp == NULL)
 							break;
 					}
-					PutStack(&temp, PN[i]);
+
 				}
+				PutStack(&temp, PN[i]);
+			}
 			}
 		}
 		else {//非字符直接入栈

@@ -11,9 +11,9 @@ D:\cccc\数据结构\栈的表达式求值\main.c(161,15): warning C4047: “==�
 D:\cccc\数据结构\栈的表达式求值\main.c(170,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
 D:\cccc\数据结构\栈的表达式求值\main.c(180,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
 D:\cccc\数据结构\栈的表达式求值\main.c(193,14): warning C4133: “=”: 从“Sqstack *”到“SqSTACK”的类型不兼容
-D:\cccc\数据结构\栈的表达式求值\main.c(224,23): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
 D:\cccc\数据结构\栈的表达式求值\main.c(226,22): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
-D:\cccc\数据结构\栈的表达式求值\main.c(231,24): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
-D:\cccc\数据结构\栈的表达式求值\main.c(252,20): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(228,21): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(236,24): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
+D:\cccc\数据结构\栈的表达式求值\main.c(259,20): warning C4133: “=”: 从“Sqstack *”到“Sqstack *”的类型不兼容
 D:\cccc\数据结构\栈的表达式求值\main.c(163): warning C4715: “CompareOp”: 不是所有的控件路径都返回值
   栈的表达式求值.vcxproj -> D:\cccc\数据结构\Debug\栈的表达式求值.exe
