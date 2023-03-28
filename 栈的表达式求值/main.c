@@ -209,6 +209,9 @@ bool ToRPN(char* PN, SqSTACK* result) {//((15/(7-(1+1)))*3 -(2+(1+1)))由PN指针承
 	len = Len(PN);
 	for (i = 0; i < len; i++) {// 1+2+3
 		if (IfOp(PN[i])) {//字符需判断
+			if (number == 1)
+				PutStack(result, ' ');
+			number = 0;
 			if (Empty(temp)) {
 				PutStack(&temp, PN[i]);
 				continue;
@@ -232,7 +235,6 @@ bool ToRPN(char* PN, SqSTACK* result) {//((15/(7-(1+1)))*3 -(2+(1+1)))由PN指针承
 					PutStack(&temp, PN[i]);
 				}
 			}
-			number = 0;
 		}
 		else {//非字符直接入栈
 			x = PN[i];//这里有一个问题 就是怎么让大于10的数字存放起来
@@ -240,6 +242,7 @@ bool ToRPN(char* PN, SqSTACK* result) {//((15/(7-(1+1)))*3 -(2+(1+1)))由PN指针承
 				PopStack(result, &x);
 				x = (char)((int)x * 10 + (int)x);
 			}*/
+			//12+3
 			PutStack(result, x);
 			number = 1;
 		}
