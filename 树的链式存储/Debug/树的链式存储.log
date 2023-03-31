@@ -1,0 +1,6 @@
+﻿  main.c
+D:\cccc\数据结构\树的链式存储\main.c(10,21): warning C4133: “函数”: 从“BiTNode *”到“BiTree”的类型不兼容
+D:\cccc\数据结构\树的链式存储\main.c(11,21): warning C4133: “函数”: 从“BiTNode *”到“BiTree”的类型不兼容
+D:\cccc\数据结构\树的链式存储\main.c(20,30): warning C4133: “函数”: 从“BiTNode *”到“BiTree”的类型不兼容
+D:\cccc\数据结构\树的链式存储\main.c(21,30): warning C4133: “函数”: 从“BiTNode *”到“BiTree”的类型不兼容
+  树的链式存储.vcxproj -> D:\cccc\数据结构\Debug\树的链式存储.exe

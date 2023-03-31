@@ -33,6 +33,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "朴素模式匹配算法", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP算法", "KMP算法\KMP算法.vcxproj", "{EA2461A0-F8DC-4F5B-8330-7E9EA21D2255}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树的定义", "树的定义\树的定义.vcxproj", "{821B60C5-3CC2-4422-9A3A-4F540FB3A632}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树的链式存储", "树的链式存储\树的链式存储.vcxproj", "{7960885B-E23F-428B-B080-FD796C42F297}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -161,6 +165,22 @@ Global
 		{EA2461A0-F8DC-4F5B-8330-7E9EA21D2255}.Release|x64.Build.0 = Release|x64
 		{EA2461A0-F8DC-4F5B-8330-7E9EA21D2255}.Release|x86.ActiveCfg = Release|Win32
 		{EA2461A0-F8DC-4F5B-8330-7E9EA21D2255}.Release|x86.Build.0 = Release|Win32
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Debug|x64.ActiveCfg = Debug|x64
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Debug|x64.Build.0 = Debug|x64
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Debug|x86.ActiveCfg = Debug|Win32
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Debug|x86.Build.0 = Debug|Win32
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Release|x64.ActiveCfg = Release|x64
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Release|x64.Build.0 = Release|x64
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Release|x86.ActiveCfg = Release|Win32
+		{821B60C5-3CC2-4422-9A3A-4F540FB3A632}.Release|x86.Build.0 = Release|Win32
+		{7960885B-E23F-428B-B080-FD796C42F297}.Debug|x64.ActiveCfg = Debug|x64
+		{7960885B-E23F-428B-B080-FD796C42F297}.Debug|x64.Build.0 = Debug|x64
+		{7960885B-E23F-428B-B080-FD796C42F297}.Debug|x86.ActiveCfg = Debug|Win32
+		{7960885B-E23F-428B-B080-FD796C42F297}.Debug|x86.Build.0 = Debug|Win32
+		{7960885B-E23F-428B-B080-FD796C42F297}.Release|x64.ActiveCfg = Release|x64
+		{7960885B-E23F-428B-B080-FD796C42F297}.Release|x64.Build.0 = Release|x64
+		{7960885B-E23F-428B-B080-FD796C42F297}.Release|x86.ActiveCfg = Release|Win32
+		{7960885B-E23F-428B-B080-FD796C42F297}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
