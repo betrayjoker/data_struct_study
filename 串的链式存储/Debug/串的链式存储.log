@@ -1,0 +1,3 @@
+﻿  main.c
+D:\cccc\数据结构\串的链式存储\main.c(5): warning C4716: “SubString”: 必须返回一个值
+  串的链式存储.vcxproj -> D:\cccc\数据结构\Debug\串的链式存储.exe
