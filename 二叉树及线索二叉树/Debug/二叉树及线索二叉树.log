@@ -1,0 +1,5 @@
+﻿  main.c
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(18,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(19,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(25,1): warning C4305: “初始化”: 从“int”到“char”截断
+  二叉树及线索二叉树.vcxproj -> D:\cccc\数据结构\Debug\二叉树及线索二叉树.exe
