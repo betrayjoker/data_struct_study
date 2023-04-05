@@ -1,5 +1,21 @@
 ﻿  main.c
-D:\cccc\数据结构\二叉树及线索二叉树\main.c(18,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
-D:\cccc\数据结构\二叉树及线索二叉树\main.c(19,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
-D:\cccc\数据结构\二叉树及线索二叉树\main.c(25,1): warning C4305: “初始化”: 从“int”到“char”截断
-  二叉树及线索二叉树.vcxproj -> D:\cccc\数据结构\Debug\二叉树及线索二叉树.exe
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(16,21): warning C4133: “=”: 从“TreeNode *”到“TreeNode *”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(20,21): warning C4133: “=”: 从“Tree”到“TreeNode *”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(29,10): warning C4047: “函数”:“Tree *”与“Tree”的间接级别不同
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(29,9): warning C4024: “visit”: 形参和实参 1 的类型不同
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(30,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(31,21): warning C4133: “函数”: 从“TreeNode *”到“Tree”的类型不兼容
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(52,9): warning C4013: “InitQue”未定义；假设外部返回 int
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(54,9): warning C4013: “EnQueue”未定义；假设外部返回 int
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(55,16): warning C4013: “isEmpty”未定义；假设外部返回 int
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(56,10): warning C4013: “DeQueue”未定义；假设外部返回 int
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(57,10): warning C4047: “函数”:“Tree *”与“TreeNode *”的间接级别不同
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(57,9): warning C4024: “visit”: 形参和实参 1 的类型不同
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(66): warning C4716: “LevelOrder”: 必须返回一个值
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(74): warning C4716: “InThread”: 必须返回一个值
+D:\cccc\数据结构\二叉树及线索二叉树\main.c(81): warning C4716: “CreateInThread”: 必须返回一个值
+main.obj : error LNK2019: 无法解析的外部符号 _InitQue，函数 _LevelOrder 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _EnQueue，函数 _LevelOrder 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _isEmpty，函数 _LevelOrder 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 _DeQueue，函数 _LevelOrder 中引用了该符号
+D:\cccc\数据结构\Debug\二叉树及线索二叉树.exe : fatal error LNK1120: 4 个无法解析的外部命令
